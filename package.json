@@ -1,0 +1,17 @@
+{
+  "name": "payslip-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node src/scripts/executor.js",
+    "test": "mocha test/scripts/main-test.js"
+  },
+  "author": "Jatin Dhandhalya",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "mocha": "^9.0.1",
+    "prompts": "^2.4.1"
+  }
+}
